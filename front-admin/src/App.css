@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar */
+.ps__rail-y {
+  width: 8px; /* Set the width of the scrollbar */
+  background-color: transparent;
+}
+
+.ps__thumb-y {
+  width: 100%; /* Set the width of the scrollbar thumb */
+  background-color: rgba(0, 0, 0, 0.3); /* Background color of the thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+/* Hover state for the scrollbar thumb */
+.ps__thumb-y:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}

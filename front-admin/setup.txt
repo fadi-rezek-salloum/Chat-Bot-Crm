@@ -1,0 +1,11 @@
+1. Clone the repository:
+2. Navigate to the project directory: 
+            - cd chatbot-frontend-admin
+3.Install the project dependencies:
+            - npm install
+4.Running the Project :
+            - npm start
+
+
+
+

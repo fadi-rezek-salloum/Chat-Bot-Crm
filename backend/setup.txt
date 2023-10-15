@@ -1,0 +1,38 @@
+1- clone the project
+create django project 
+    pip install django
+    pip install virtualenv
+    django-admin startproject test
+copy the secret key from settings and delete the project 
+copy the secret key to .env file of the cloned project
+
+cd to folder  create virtualenv with
+virtualenv home-env .
+confirme that project structure is like this : home-env folder in the level with other app folders : example 
+-home-env 
+-project
+-users
+-departments
+
+
+activate the env with 
+.\home-env\scripts\activate
+
+install requirements
+pip install -r requirements.txt
+
+python manage.py makemigrations
+python manage.py migrate 
+python manage.py createsuperuser 
+admin
+admin@gmail.com
+admin
+admin
+y
+
+than run the server with 
+python manage.py runserver
+
+
+
+don't forget to run the redis : docker run --rm -p 6379:6379 redis:7
